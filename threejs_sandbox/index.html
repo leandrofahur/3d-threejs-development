@@ -10,8 +10,12 @@
 	</head>
 	<body>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
+		<script src="./index.js"></script>
 		<script>
-			// Our Javascript will go here.
+			document.addEventListener('DOMContentLoaded', function() {
+				const world = new World();
+				window.world = world;
+    	});
 		</script>
 	</body>
 </html>
